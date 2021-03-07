@@ -17,5 +17,6 @@ public class Calculator {
         System.out.println();
         System.out.println(numberFirst + " + " + numberSecond);
         System.out.println(numberFirst + numberSecond);
+        System.out.println();
     }
 }
