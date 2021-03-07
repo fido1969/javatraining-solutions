@@ -3,7 +3,7 @@
 ### Bevezetés a nyelvi eszközökbe
 #### Java osztályok
 * classstructureio - Kiírás és beolvasás konzolról
-** ##### Számológép
+##### Számológép
 
 ---
 
