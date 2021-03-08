@@ -19,11 +19,11 @@ public class Product {
         return code;
     }
 
-    public boolean areTheyEqual(Product product) {
+    public boolean areTheyEqualNamel(Product product) {
         return name.equals(product.getName());
     }
 
-    public boolean areTheyEqualNamAndCode(Product product) {
+    public boolean areTheyEqualNameAndCode(Product product) {
         return name.equals(product.getName()) && Math.abs(code.length() - product.code.length()) <= 1;
     }
 
@@ -33,9 +33,9 @@ public class Product {
         Product productTwo = new Product("White bread", "WB-11");
         Product productThree = new Product("Roll", "R-01");
 
-        System.out.println(productOne.areTheyEqual(productTwo));
-        System.out.println(productOne.areTheyEqual(productThree));
-        System.out.println(productOne.areTheyEqualNamAndCode(productTwo));
-        System.out.println(productOne.areTheyEqualNamAndCode(productThree));
+        System.out.println(productOne.areTheyEqualNamel(productTwo));
+        System.out.println(productOne.areTheyEqualNamel(productThree));
+        System.out.println(productOne.areTheyEqualNameAndCode(productTwo));
+        System.out.println(productOne.areTheyEqualNameAndCode(productThree));
     }
 }
