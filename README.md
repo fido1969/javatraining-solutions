@@ -60,6 +60,31 @@ A Store példányosításakor elég megadni a tárolt terméket, a mennyiség mi
 Készíts hozzá két metódust, mely a tárolt mennyiséget változtatja: a store() metódusa a paraméterként kapott mennyiséget eltárolja a raktárban növelve ezzel a készletet, míg a dispatch() metódusa az elszállítást modellezi, azaz a paraméterként kapott mennyiséggel csökkenti a készletet! (Most még nem kell ellenőrizned, hogy elszállításkor van-e a raktárban elegendő mennyiségű terméket.)
 A StoreMain osztály main() metódusában készíts két Store példányt, és teszteld, hogy mindkét raktár helyesen és függetlenül működik be- és kiszállítás esetén is!
 *classstructureintegrate - UML, példányok konzol íráskor/olvasáskor
+##### *Termék*
+
+---
+
+Az alábbi diagram és a leírás alapján készítsd el a Product osztályt!
+
+![image](https://user-images.githubusercontent.com/67753819/110313823-4a068600-8007-11eb-86fd-b9da35321985.png)
+
+Az attribútumok kezdőértéket a konstruktorban kapnak. Az increasePrice() a paraméter értékével növeli, a decreasePrice() pedig csökkenti az aktuális árat.
+Próbáld ki az osztály működését main() metódusban, ahol a példány létrehozásához szükséges adatokat a felhasználótól kéred be!
+
+##### *Bankszámlák*
+
+---
+
+Az UML diagram és a leírás alapján készítsd el a BankAccount osztályt!
+
+
+
+Számlanyitáshoz mindhárom attribútum értékét meg kell adni. A számlára lehet befizetni (deposit()), lehet róla pénzt kivenni (withdraw()), illetve másik számlára át lehet utalni összeget (transfer()). Ez utóbbi esetben a számla saját egyenlege csökken, de a másik számla egyenlegére jóváírás történik.
+
+A getInfo() metódus a számla adatait az alábbi formában adja vissza Stringként:
+
+Tóth Kálmán (10073217-12000098-67341590): 103400 Ft
+Készíts egy Bank osztályt, amely main() metódusában létrehozol két bankszámlát! Próbáld ki az összes elkészített metódust, hogy jól működik-e! A szükséges adatokat a felhasználótól kérd be! Átutalásnál ellenőrizd mindkét számla új egyenlegét!
 
 ##### *2021.03.08 (week02d02)*
 
