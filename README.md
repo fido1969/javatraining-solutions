@@ -83,7 +83,7 @@ Számlanyitáshoz mindhárom attribútum értékét meg kell adni. A számlára 
 A getInfo() metódus a számla adatait az alábbi formában adja vissza Stringként:    Tóth Kálmán (10073217-12000098-67341590): 103400 Ft
 Készíts egy Bank osztályt, amely main() metódusában létrehozol két bankszámlát! Próbáld ki az összes elkészített metódust, hogy jól működik-e! A szükséges adatokat a felhasználótól kérd be! Átutalásnál ellenőrizd mindkét számla új egyenlegét!
 
-##### *2021.03.08 (week02d02)*
+##### *2021.03.08 (week02d02) órai-feladat*
 
 ---
 
