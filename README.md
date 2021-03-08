@@ -88,3 +88,14 @@ Készíts egy Bank osztályt, amely main() metódusában létrehozol két banksz
 ---
 
 Írj egy Phone osztályt, type (String) és mem (int) attribútumokkal! Generálj konstruktort, gettert és settert! Írj bele egy main metódust, amivel példányosítasz egy osztályt, és kiírod az attribútumok értékeit!
+
+##### *2020.11.04 (week02d03) órai-feladat*
+
+---
+
+Írj egy Product oszályt String name és String code attribútumokkal! 
+
+![image](https://user-images.githubusercontent.com/67753819/110371772-b5734680-804d-11eb-9eae-cd73b4c7e8f6.png)
+
+Legyen egy konstruktora a két attribútummal! Legyen egy areTheyEqual() metódusa, mely kap egy másik Product példányt, és eldönti, hogy azonos-e az adott példánnyal. Két termék akkor egyezik, ha a nevük megegyezik.
+*Bónusz:* szigorúbb egyelőség a feltételre: a két termék kódjának hosszának különbsége maximum egy karakter lehet.
