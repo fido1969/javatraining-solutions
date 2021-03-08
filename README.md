@@ -60,3 +60,9 @@ A Store példányosításakor elég megadni a tárolt terméket, a mennyiség mi
 Készíts hozzá két metódust, mely a tárolt mennyiséget változtatja: a store() metódusa a paraméterként kapott mennyiséget eltárolja a raktárban növelve ezzel a készletet, míg a dispatch() metódusa az elszállítást modellezi, azaz a paraméterként kapott mennyiséggel csökkenti a készletet! (Most még nem kell ellenőrizned, hogy elszállításkor van-e a raktárban elegendő mennyiségű terméket.)
 A StoreMain osztály main() metódusában készíts két Store példányt, és teszteld, hogy mindkét raktár helyesen és függetlenül működik be- és kiszállítás esetén is!
 *classstructureintegrate - UML, példányok konzol íráskor/olvasáskor
+
+##### *2021.03.08 (week02d02)*
+
+---
+
+Írj egy Phone osztályt, type (String) és mem (int) attribútumokkal! Generálj konstruktort, gettert és settert! Írj bele egy main metódust, amivel példányosítasz egy osztályt, és kiírod az attribútumok értékeit!
