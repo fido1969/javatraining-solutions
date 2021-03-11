@@ -112,3 +112,15 @@ Hozz létre egy InputNames Java osztályt, melynek van egy main metódusa. Ciklu
 
 Hozz létre egy Languages osztályt, main metódussal! Ebben hozz létre egy listát, mely karakterláncokat tartalmaz! Vegyetek fel 3 elemet: Java, Python, JavaScript!
 Írd ki, az öt karakternél hosszabb programozási nyelveket!
+
+#### A nyelv építőkövei
+
+* conventions - Kódolási konvenciók
+* localvariables - Literálok és lokális változók
+* statements - Kifejezések és utasítások
+* packages - Csomagok
+* javaapi - Java API
+* distjar - JAR állomány
+* stringtype - Szöveges típus
+* introdate - Dátum és időkezelés alapok
+* introcontrol - Bevezetés a vezérlési szerkezetekbe
