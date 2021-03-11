@@ -106,7 +106,7 @@ Legyen egy konstruktora a két attribútummal, Getterekkel! Legyen egy areTheyEq
 
 Hozz létre egy InputNames Java osztályt, melynek van egy main metódusa. Ciklusban kérj be öt nevet! A neveket tárold el egy tömbben! Írd ki a tömb tartalmát, sortöréssel elválasztva (írd bele, hogy hanyadik elem - 1-től sorszámozva)!
 
-##### *2020-11-06 (week02d05) órai-feladat*
+##### *2021.03.11 (week02d05) órai-feladat*
 
 ---
 
