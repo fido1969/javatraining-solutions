@@ -99,3 +99,9 @@ Készíts egy Bank osztályt, amely main() metódusában létrehozol két banksz
 
 Legyen egy konstruktora a két attribútummal, Getterekkel! Legyen egy areTheyEqual() metódusa, mely kap egy másik Product példányt, és eldönti, hogy azonos-e az adott példánnyal. Két termék akkor egyezik, ha a nevük megegyezik.
 **Bónusz:** szigorúbb egyelőség a feltételre: és a két termék kódjának hosszának különbsége maximum egy karakter lehet.
+
+##### *2021.03.11 (week02d04) órai-feladat*
+
+---
+
+Hozz létre egy InputNames Java osztályt, melynek van egy main metódusa. Ciklusban kérj be öt nevet! A neveket tárold el egy tömbben! Írd ki a tömb tartalmát, sortöréssel elválasztva (írd bele, hogy hanyadik elem - 1-től sorszámozva)!
