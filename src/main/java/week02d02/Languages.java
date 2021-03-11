@@ -7,7 +7,7 @@ public class Languages {
 
     private List<String> programsList = new ArrayList<>();
 
-    public List<String> ProgramLongerThenFiveChars(List<String> programsList) {
+    public List<String> ProgramLongerThanFiveChars(List<String> programsList) {
         List<String> fillterdProgramList = new ArrayList<>();
         for (String program : programsList) {
             if (program.length() > 5) {
@@ -25,6 +25,6 @@ public class Languages {
         languages.programsList.add("Python");
         languages.programsList.add("JavaScrip");
 
-        System.out.println(languages.ProgramLongerThenFiveChars(languages.programsList));
+        System.out.println(languages.ProgramLongerThanFiveChars(languages.programsList));
     }
 }
