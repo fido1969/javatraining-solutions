@@ -136,10 +136,17 @@ Hozz létre egy Languages osztályt, main metódussal! Ebben hozz létre egy lis
 * finalmodifier - Konstans értékek használata
 * math - Math és Random osztály
 
-##### *2020.03.13 (week03d02)*
+##### *2021.03.13 (week03d02)*
 
 ---
 
 Írj egy Position osztályt, melynek van egy name és egy bonus attribútuma! Egy alkalmazotti pozíciót jelöl, melynek a bonus attribútuma tárolja, hogy ebben a pozícióban évente mennyi bónuszt kap egy alkalmazott. A main metódusban hozz létre egy Position objektumokat tartalmazo listát!
 Menj végig a lista elemein, és írd ki azokat, ahol a bónusz magasabb, mint 150_000. Azonban a kiírás
 formátumát a Position osztály toString() metódusában implementáld!
+
+
+##### *2021.03.13 (week03d04)*
+
+---
+
+Írj egy Phone oszályt, melynek van egy prefix és egy number String attribútuma! Írj egy PhoneParser osztályt egy parse(String) metódussal, ami beolvas egy 10-1234567 formátumú szöveget, és visszaad egy Phone objektumot, feltöltve a prefix értékét 10, a number értékét 1234567 értékekkel!
