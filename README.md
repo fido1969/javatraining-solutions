@@ -135,3 +135,11 @@ Hozz létre egy Languages osztályt, main metódussal! Ebben hozz létre egy lis
 * debug - Debug
 * finalmodifier - Konstans értékek használata
 * math - Math és Random osztály
+
+##### *2020-11-10 (week03d02)*
+
+---
+
+Írj egy Position osztályt, melynek van egy name és egy bonus attribútuma! Egy alkalmazotti pozíciót jelöl, melynek a bonus attribútuma tárolja, hogy ebben a pozícióban évente mennyi bónuszt kap egy alkalmazott. A main metódusban hozz létre egy Position objektumokat tartalmazo listát!
+Menj végig a lista elemein, és írd ki azokat, ahol a bónusz magasabb, mint 150_000. Azonban a kiírás
+formátumát a Position osztály toString() metódusában implementáld!
