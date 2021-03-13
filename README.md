@@ -124,3 +124,14 @@ Hozz létre egy Languages osztályt, main metódussal! Ebben hozz létre egy lis
 * stringtype - Szöveges típus
 * introdate - Dátum és időkezelés alapok
 * introcontrol - Bevezetés a vezérlési szerkezetekbe
+
+#### Bonyolultabb típusok
+
+*array - Tömbök
+*cmdarguments - Parancssori paraméterek
+*arrayofarrays - Tömbök tömbje
+*arrays - Tömbök kezelése
+*arraylist - Lista
+*debug - Debug
+*finalmodifier - Konstans értékek használata
+*math - Math és Random osztály
