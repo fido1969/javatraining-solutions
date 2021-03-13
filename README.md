@@ -136,7 +136,7 @@ Hozz létre egy Languages osztályt, main metódussal! Ebben hozz létre egy lis
 * finalmodifier - Konstans értékek használata
 * math - Math és Random osztály
 
-##### *2020-11-10 (week03d02)*
+##### *2020.03.13 (week03d02)*
 
 ---
 
