@@ -136,7 +136,7 @@ Hozz létre egy Languages osztályt, main metódussal! Ebben hozz létre egy lis
 * finalmodifier - Konstans értékek használata
 * math - Math és Random osztály
 
-##### *2020.03.13 (week03d02)*
+##### *2021.03.13 (week03d02)*
 
 ---
 
@@ -145,7 +145,7 @@ Menj végig a lista elemein, és írd ki azokat, ahol a bónusz magasabb, mint 1
 formátumát a Position osztály toString() metódusában implementáld!
 
 
-##### *2020-11-12 (week03d04)*
+##### *2021.03.13 (week03d04)*
 
 ---
 
