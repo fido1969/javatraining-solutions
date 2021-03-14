@@ -150,3 +150,9 @@ formátumát a Position osztály toString() metódusában implementáld!
 ---
 
 Írj egy Phone oszályt, melynek van egy prefix és egy number String attribútuma! Írj egy PhoneParser osztályt egy parse(String) metódussal, ami beolvas egy 10-1234567 formátumú szöveget, és visszaad egy Phone objektumot, feltöltve a prefix értékét 10, a number értékét 1234567 értékekkel!
+
+##### *2021.03.14 (week03d05)*
+
+---
+
+Írj egy Operation osztályt, mely konstruktorban kap egy összeadást, pl. 68+12! A getResult() metódus visszaadja a művelet eredményét. Egy belső leftOperand és rightOperand attribútumba dolgozz!
