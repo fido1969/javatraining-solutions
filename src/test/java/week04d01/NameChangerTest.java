@@ -37,9 +37,21 @@ class NameChangerTest {
         assertEquals("Attila Szabadkai",nameChanger.getFullName());
     }
 
+    @Test//using StringBuilder
+    void changeFirstNameSb() {
+        nameChanger.changeFirstNameSb("Attila");
+        assertEquals("Attila Szabadkai",nameChanger.getFullName());
+    }
+
     @Test
     void changeFamilytName() {
         nameChanger.changeFamilyName("Király");
+        assertEquals("János Király",nameChanger.getFullName());
+    }
+
+    @Test//using StringBuilder
+    void changeFamilyNameSb() {
+        nameChanger.changeFamilyNameSb("Király");
         assertEquals("János Király",nameChanger.getFullName());
     }
 }
