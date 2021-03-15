@@ -156,3 +156,10 @@ formátumát a Position osztály toString() metódusában implementáld!
 ---
 
 Írj egy Operation osztályt, mely konstruktorban kap egy összeadást, pl. 68+12! A getResult() metódus visszaadja a művelet eredményét. Egy belső leftOperand és rightOperand attribútumba dolgozz!
+
+##### *2021.03.15 (week04d01)*
+
+---
+
+Készítsd el a NameChanger osztályt, melynek privát attribútuma legyen a String fillName, mely egy ember teljes nevét reprezentálja! A fullName attribútum [vezetéknév][szóköz][keresztnév] formátumban épül fel. A konstruktor állítsa be a paraméterül kapott értékre az adattagot, de ha az érték null, vagy üres String, akkor dobjon egy IllegalAgrumentException kivételt a következő üzenettel: Invalid name:[paraméter értéke]!
+Legyen egy changeFirstName(String firstName) metódusa, mely megváltoztatja az objektum állapotát és kicseréli a vezetéknevet a paraméterül kapott értékre!
