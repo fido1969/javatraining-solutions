@@ -17,8 +17,25 @@ public class NameChanger {
         this.fullName = fullName.replace(fullName.substring(0, fullName.indexOf(" ")), firstName);
     }
 
+    //using StringBuilder
+    public void changeFirstNameSb(String firstName) {
+        StringBuilder stringBuilder = new StringBuilder();
+        String[] str = fullName.split(" ");
+        stringBuilder = stringBuilder.append(firstName).append(" ").append(str[1]);
+        fullName=stringBuilder.toString();
+    }
+
+    //using StringBuilder
+    public void changeFamilyNameSb(String lastName) {
+        StringBuilder stringBuilder = new StringBuilder();
+        String[] str = fullName.split(" ");
+        stringBuilder = stringBuilder.append(str[0]).append(" ").append(lastName);
+        fullName=stringBuilder.toString();
+    }
+
+
     public void changeFamilyName(String familyName) {
-        this.fullName = fullName.replace(fullName.substring(fullName.indexOf(" ")+1), familyName);
+        this.fullName = fullName.replace(fullName.substring(fullName.indexOf(" ") + 1), familyName);
     }
 
     private void isValid(String fullName) {
