@@ -24,4 +24,22 @@ public class Books {
     public List<String> getTitles() {
         return titleOfTheBooks;
     }
+
+    public void removeByPrefix(String prefix) {
+        for (String bookTitle : titleOfTheBooks) {
+            if (bookTitle.startsWith(prefix)) {
+                titleOfTheBooks.remove(bookTitle);
+            }
+        }
+    }
+
+    public void removeAllByPrefix(String prefix) {
+        List<String> deleteByPrefix = new ArrayList<>();
+        for (String bookTitle : titleOfTheBooks) {
+            if (bookTitle.startsWith(prefix)) {
+                deleteByPrefix.add(bookTitle);
+            }
+        }
+        titleOfTheBooks.removeAll(deleteByPrefix);
+    }
 }
