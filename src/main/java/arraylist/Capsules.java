@@ -31,4 +31,21 @@ public class Capsules {
     public List<String> getColors() {
         return capsulesColour;
     }
+
+    public static void main(String[] args) {
+
+        Capsules capsules = new Capsules();
+
+        capsules.addLast("green");
+        capsules.addLast("blue");
+        capsules.addLast("red");
+        System.out.println( capsules.getColors().toString());
+
+        List<String> capselesClear = capsules.getColors();
+
+        capselesClear.clear();//azonos referencia miatt mindkettő elemei törlődnek
+
+        System.out.println( capsules.getColors().toString());
+
+    }
 }
