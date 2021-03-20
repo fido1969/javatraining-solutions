@@ -1,4 +1,4 @@
-package math;
+package math.game;
 
 import java.util.Random;
 
