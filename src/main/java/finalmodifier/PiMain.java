@@ -8,29 +8,40 @@ public class PiMain {
 
         Scanner scanner = new Scanner(System.in);
 
-        boolean invalidInput = false;
+        boolean validInput = false;
 
-        while (invalidInput == false) {
+        Double radius = null;
+
+        Double height = null;
+
+        while (validInput == false) {
 
             System.out.println();
+
             System.out.printf("%40s", "Give the radius: ");
-            String input = scanner.nextLine();
+            String inputRadius = scanner.nextLine();
+
+            System.out.printf("%40s", "Give the height: ");
+            String inputHeight = scanner.nextLine();
 
             try {
-                double radius = Double.parseDouble(input);
-                invalidInput = true;
+
+                radius = Double.parseDouble(inputRadius);
+                height = Double.parseDouble(inputHeight);
+                validInput = true;
+
             } catch (NumberFormatException nfi) {
                 System.out.printf("%40s", "Invalid number!");
             }
-            System.out.println();
         }
-        System.out.printf("%40s %6.2f", "Perimeter of the circle: ", new CircleCalculator().calculatePerimeter(2));
         System.out.println();
-        System.out.printf("%40s %6.2f", "Area of the circle: ", new CircleCalculator().calculateArea(2));
+        System.out.printf("%40s %6.2f", "Perimeter of the circle: ", new CircleCalculator().calculatePerimeter(radius));
         System.out.println();
-        System.out.printf("%40s %6.2f", "Volume of the cylinder: ", new CylinderCalculator().calculateVolume(2, 2));
+        System.out.printf("%40s %6.2f", "Area of the circle: ", new CircleCalculator().calculateArea(radius));
         System.out.println();
-        System.out.printf("%40s %6.2f", "Surface area of the cylinder: ", new CylinderCalculator().calculateSurfaceArea(2, 2));
+        System.out.printf("%40s %6.2f", "Volume of the cylinder: ", new CylinderCalculator().calculateVolume(radius, height));
+        System.out.println();
+        System.out.printf("%40s %6.2f", "Surface area of the cylinder: ", new CylinderCalculator().calculateSurfaceArea(radius, height));
         System.out.println();
     }
 }
