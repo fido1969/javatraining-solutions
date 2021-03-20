@@ -35,6 +35,9 @@ public class PiMain {
             }
         }
         System.out.println();
+        System.out.println();
+        System.out.printf("%40s %6.2f","The value of PI: ",CircleCalculator.PI);
+        System.out.println();
         System.out.printf("%40s %6.2f", "Perimeter of the circle: ", new CircleCalculator().calculatePerimeter(radius));
         System.out.println();
         System.out.printf("%40s %6.2f", "Area of the circle: ", new CircleCalculator().calculateArea(radius));
