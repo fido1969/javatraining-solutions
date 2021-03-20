@@ -163,3 +163,15 @@ formátumát a Position osztály toString() metódusában implementáld!
 
 Készítsd el a NameChanger osztályt, melynek privát attribútuma legyen a String fillName, mely egy ember teljes nevét reprezentálja! A fullName attribútum [vezetéknév][szóköz][keresztnév] formátumban épül fel. A konstruktor állítsa be a paraméterül kapott értékre az adattagot, de ha az érték null, vagy üres String, akkor dobjon egy IllegalAgrumentException kivételt a következő üzenettel: Invalid name:[paraméter értéke]!
 Legyen egy changeFirstName(String firstName) metódusa, mely megváltoztatja az objektum állapotát és kicseréli a vezetéknevet a paraméterül kapott értékre!
+
+##### *2021.03.20 (week04d02)*
+
+---
+
+A Search osztályban írj egy getIndexesOfChar() metódust, mely első paraméterként vár egy String értéket, második paraméterként egy char értéket! Visszaad egy listát, melyben visszaadja, hogy a karakter hanyadik indexeken szerepel az első paraméterként átadott listában. Pl.: almafa szóban a a karakter: 0, 3, 5.
+
+##### *2021.03.20 (week04d03)*
+
+---
+
+Írj egy számkitaláló programot a GuessTheNumber osztályba! A program kitalál egy véletlenszerű számot 1 és 100 között. Majd bekér a felhasználótól ciklusban számokat. Mindig megmondja, hogy a szám, kisebb, nagyobb vagy egyenlő-e mint a gondolt szám. Bónusz feladat: max 6-szor lehet kérdezni!
