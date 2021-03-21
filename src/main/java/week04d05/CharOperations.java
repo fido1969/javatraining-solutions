@@ -5,6 +5,21 @@ import java.util.List;
 
 public class CharOperations {
 
+    /*public List<Integer> getPositionOfChars0(String base, char part) {
+
+        List<Integer> positions = new ArrayList<>();
+
+        isValid(base);
+
+        for (int i = 0; i < base.length(); i++) {
+            if (base.charAt(i) == part) {
+                positions.add(i);
+            }
+        }
+        return positions;
+    }*/
+
+
     public List<Integer> getPositionOfChars(String base, String part) {
 
         List<Integer> positions = new ArrayList<>();
@@ -19,7 +34,7 @@ public class CharOperations {
                 if (base.substring(i, (i + part.length())).equals(part)) {
                     positions.add(i);
                 }
-            }else {
+            } else {
 
             }
         }
