@@ -175,3 +175,15 @@ A Search osztályban írj egy getIndexesOfChar() metódust, mely első paraméte
 ---
 
 Írj egy számkitaláló programot a GuessTheNumber osztályba! A program kitalál egy véletlenszerű számot 1 és 100 között. Majd bekér a felhasználótól ciklusban számokat. Mindig megmondja, hogy a szám, kisebb, nagyobb vagy egyenlő-e mint a gondolt szám. Bónusz feladat: max 6-szor lehet kérdezni!
+
+##### *2021.03.21 (week04d05)*
+
+---
+
+Írj egy CharOperations osztályt, abban egy List<Integer> getPositionOfChars(String base, String part) metódust! A metódus visszaadja, hogy az első stringben a második string mely pozíciókon helyezkedik el.
+
+##### *2021.03.21 (week05d02)*
+
+---
+
+A ChangeLetter osztályban írj meg egy String changeVowels(String) metódust, mely kicseréli a paraméterként átadott szövegben az angol magánhangzókat csillag (*) karakterre.
